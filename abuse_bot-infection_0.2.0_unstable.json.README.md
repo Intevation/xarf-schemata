@@ -11,12 +11,12 @@ The schema is incompatible to 0.1.0 due to one breaking change.
  This change breaks compatibility with 0.1.0
 
  2. Six additional fields have been added to the schema:
- * Destination-ASN
- * Destination-Port
- * Source-ASN
- * Classification-Taxonomy
- * Classification-Type
- * Classification-Identifier
+  * Destination-ASN
+  * Destination-Port
+  * Source-ASN
+  * Classification-Taxonomy
+  * Classification-Type
+  * Classification-Identifier
 
  Some tools, like IntelMQ for example, are
  capable of processing more information than the originating Schema 0.1.0
@@ -25,7 +25,7 @@ The schema is incompatible to 0.1.0 due to one breaking change.
 
  3. Some fields have been moved within the schema, in order to achieve
  a more clear order of the schema. Moved Fields:
- * User-Agent
- * Date
+  * User-Agent
+  * Date
 
  4. Fixed indentation of some fields.
