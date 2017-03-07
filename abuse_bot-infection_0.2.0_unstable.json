@@ -78,7 +78,8 @@
             "optional": true
         },
         "Malware-Name":{
-            "type":"string"
+            "type":"string",
+            "optional": true
         },
         "Malware-MD5":{
              "type":"string",
